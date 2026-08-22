@@ -1,8 +1,15 @@
 aid: husk-power-systems
 name: Husk Power Systems
-description: 'Husk Power Systems is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: Husk Power Systems is an energy technology company, founded in 2008 and headquartered in
+  Fort Collins, Colorado with operating hubs in Patna, Mumbai and Pune (India) and Abuja (Nigeria), that
+  builds, owns and operates AI-enabled distributed renewable energy systems — community solar minigrids,
+  commercial and industrial solar, and residential rooftop — for unserved and underserved communities,
+  businesses and households across Africa and Asia. Husk operates one of the largest minigrid fleets in
+  the world and pairs it with pay-as-you-go smart metering, a customer mobile app (HUSKify) and an internal
+  operations platform (Husk Neuron). Its software is delivered as end-user and operator products; Husk
+  publishes no public developer program, API documentation, SDKs or machine-readable API specifications.
 url: https://raw.githubusercontent.com/api-evangelist/husk-power-systems/refs/heads/main/apis.yml
+image: https://framerusercontent.com/images/KsxpwZXwI91nHN7Wq2bl2MvoGeU.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +19,17 @@ created: '2026-08-22'
 modified: '2026-08-22'
 tags:
 - Company
+- Energy
+- Renewable Energy
+- Solar
+- Distributed Energy Resources
+- Minigrids
+- Electrification
+- Smart Metering
+- Africa
+- India
+- Nigeria
+- Climate Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,54 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/husk-power-systems-domain-security.yml
 - type: Website
+  url: https://www.huskpowersystems.com/
+- type: About
+  url: https://www.huskpowersystems.com/about
+- type: Blog
+  url: https://www.huskpowersystems.com/News-and-Insights
+- type: Support
+  url: https://www.huskpowersystems.com/Contact-Us
+- type: TermsOfService
+  url: https://www.huskpowersystems.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.huskpowersystems.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/HuskPowerSystems
+- type: LinkedIn
+  url: https://www.linkedin.com/company/husk-power-systems/
+- type: Twitter
+  url: https://x.com/huskpowersystem
+- type: Careers
+  url: https://www.huskpowersystems.com/Careers
+- type: InvestorRelations
+  url: https://www.huskpowersystems.com/Investor-Relations
+- type: Listing
   url: https://forgeglobal.com/husk-power-systems_stock/
+- type: LLMsTxt
+  url: llms/husk-power-systems-llms.txt
+x-enrichment:
+  date: '2026-08-22'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Husk ships software only as end-user and operator products (the HUSKify customer app and the
+    Husk Neuron operations dashboard); the corporate site has no developer, API or docs section anywhere
+    in its sitemap, and every contract-discovery path on huskpowersystems.com returns 404.
+  evidence:
+  - url: https://www.huskpowersystems.com/openapi.json
+    status: 404
+  - url: https://www.huskpowersystems.com/llms.txt
+    status: 404
+  - url: https://www.huskpowersystems.com/api-docs
+    status: 404
+  - url: https://www.huskpowersystems.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.huskpowersystems.com/sitemap.xml
+    status: 200
+  checked: '2026-08-22'

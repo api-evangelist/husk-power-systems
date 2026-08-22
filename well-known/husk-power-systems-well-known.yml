@@ -1,0 +1,60 @@
+generated: '2026-08-22'
+method: probed
+source: https://www.huskpowersystems.com/.well-known/
+note: >-
+  No /.well-known document is served on the Husk corporate host — every path 404s. On the
+  Husk Neuron operator app host (india.huskneuron.com) four paths answer HTTP 200, but every
+  one of them returns the same 13,748-byte single-page-app HTML shell rather than a document;
+  these are catch-all responses, not served well-known documents, and are recorded as misses.
+  Because nothing real was returned, NO WellKnown or SecurityTxt pointer is wired into apis.yml.
+hosts:
+- host: www.huskpowersystems.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: india.huskneuron.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+    note: SPA catch-all HTML shell, not a security.txt — treated as a miss.
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    note: SPA catch-all HTML shell, not a document — treated as a miss.
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    note: SPA catch-all HTML shell, not a document — treated as a miss.
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    note: SPA catch-all HTML shell, not a document — treated as a miss.
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

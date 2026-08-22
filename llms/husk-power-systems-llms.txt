@@ -1,0 +1,53 @@
+# Husk Power Systems
+
+> Energy technology company (founded 2008) that builds, owns and operates AI-enabled distributed
+> renewable energy systems — community solar minigrids, commercial and industrial solar, and
+> residential rooftop — for unserved and underserved communities, businesses and households across
+> Africa and Asia. Headquartered in Fort Collins, Colorado, with operating hubs in Patna, Mumbai and
+> Pune (India) and Abuja (Nigeria).
+
+## API status
+
+Husk Power Systems publishes **no public developer program**. As of 2026-08-22 there is no developer
+portal, no API reference, no SDK, no webhook documentation, and no machine-readable API description
+(OpenAPI, AsyncAPI, GraphQL SDL, Postman collection or JSON Schema) on any Husk host. Husk's software
+reaches the world as end-user and operator products, not as an API product:
+
+- **HUSKify** — customer mobile app for pay-as-you-go energy, bill payment and smart-meter top-up.
+- **Husk Neuron** — internal operations dashboard and field-team app for the minigrid fleet.
+
+Contract discovery was run against the corporate host and the Neuron app host and found nothing
+published: `/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/api-docs`, `/docs`, `/redoc`,
+`/llms.txt`, `/.well-known/security.txt`, `/.well-known/openid-configuration`,
+`/.well-known/oauth-authorization-server`, `/.well-known/api-catalog`, `/.well-known/ai-plugin.json`,
+`/.well-known/agent-card.json` and `/.well-known/agent.json` all miss.
+
+## Company
+
+- [Website](https://www.huskpowersystems.com/): Corporate home.
+- [About](https://www.huskpowersystems.com/about): Mission, offices and leadership.
+- [What We Do](https://www.huskpowersystems.com/What-We-Do): Minigrid, C&I and residential offerings.
+- [How We Do It](https://www.huskpowersystems.com/How-We-Do-It): Technology and operating model.
+- [Impact](https://www.huskpowersystems.com/Impact): Electrification and economic impact reporting.
+- [News and Insights](https://www.huskpowersystems.com/News-and-Insights): Press releases and articles.
+- [Investor Relations](https://www.huskpowersystems.com/Investor-Relations): Quarterly reports.
+- [Careers](https://www.huskpowersystems.com/Careers): Open roles.
+- [Contact](https://www.huskpowersystems.com/Contact-Us): General enquiries, info@huskpowersystems.com.
+
+## Legal
+
+- [Terms and Conditions](https://www.huskpowersystems.com/terms-and-conditions)
+- [Privacy Policy](https://www.huskpowersystems.com/privacy-policy)
+- [Refund and Cancellation Policy](https://www.huskpowersystems.com/refund-and-cancellation-policy)
+- [Cookie Policy](https://www.huskpowersystems.com/cookie-policy-and-settings)
+
+## Code
+
+- [GitHub organization](https://github.com/HuskPowerSystems): One public repository, a fork of the
+  `copilot-metrics-viewer` tool. No first-party libraries, SDKs or API code are published.
+
+## Optional
+
+- [API Evangelist profile](https://apis.io/husk-power-systems/): Independent third-party profile.
+
+<!-- generated: 2026-08-22 | method: generated | source: apis.yml + repo artifacts + probed public pages -->
