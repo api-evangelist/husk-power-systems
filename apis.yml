@@ -9,6 +9,17 @@ description: Husk Power Systems is an energy technology company, founded in 2008
   operations platform (Husk Neuron). Its software is delivered as end-user and operator products; Husk
   publishes no public developer program, API documentation, SDKs or machine-readable API specifications.
 url: https://raw.githubusercontent.com/api-evangelist/husk-power-systems/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://framerusercontent.com/images/KsxpwZXwI91nHN7Wq2bl2MvoGeU.png
 x-type: company
 x-source: harvest:secondary-market
